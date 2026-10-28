@@ -5,7 +5,7 @@ format = "recipkg/1"
 
 [package]
 name = "syncthing"
-version = "0.1.2"
+version = "0.1.3"
 kind = "software"
 description = "Syncthing 多设备文件同步软件的重建配方；当前仍在提取。"
 entry = "BUILD_PROMPT.md"
@@ -17,7 +17,7 @@ subdir = "recipes/software-quality"
 
 [dependencies.design]
 git = "https://github.com/recipkg/design-directions.git"
-rev = "2546cea48637585ec2e83b297b12b08548f9d15f"
+rev = "6fdba350d1effa2d50dc0185095bb91ca7a699ee"
 ```
 
 来源：[syncthing/syncthing](https://github.com/syncthing/syncthing)，观察提交 `ed38528d7fba3dd6a42c9c9fc6780af432dc15d2`；上游 README 标明 MPL-2.0。当前是未完成草案，不证明可安全重建或同步真实数据；见 `COVERAGE.md`。
